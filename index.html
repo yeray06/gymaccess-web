@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>GymAccess Villalba | Tu gimnasio en la sierra</title>
+    <meta
+      name="description"
+      content="GymAccess Villalba, tu gimnasio en la sierra noroeste de Madrid. Actividades, fuerza, cardio, cuerpo y mente. Descubre tarifas, horarios y cómo unirte."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER / NAV -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">GA</span>
+          <span class="logo-text">
+            <span class="logo-main">GymAccess</span>
+            <span class="logo-sub">Villalba</span>
+          </span>
+        </a>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#inicio" class="active">Inicio</a></li>
+            <li><a href="#centro">El centro</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#tarifas">Tarifas</a></li>
+            <li><a href="#horario">Horario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#tarifas" class="btn btn-ghost">Ver tarifas</a>
+          <a href="#alta-online" class="btn btn-primary">Alta online</a>
+        </div>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="hero-kicker">FITNESS PARA TOD@S</p>
+            <h1>
+              Tu gimnasio en<br />
+              la sierra norte
+            </h1>
+            <p class="hero-subtitle">
+              Fuerza, cardio, clases dirigidas y zona de bienestar en un solo
+              espacio. Sin líos, sin permanencia complicada, con todo lo que
+              necesitas para entrenar en serio.
+            </p>
+            <div class="hero-buttons">
+              <a href="#alta-online" class="btn btn-primary">
+                Date de alta online
+              </a>
+              <a href="#centro" class="btn btn-secondary">
+                Ver el centro
+              </a>
+            </div>
+
+            <div class="hero-badges">
+              <div class="badge">
+                <span class="badge-title">06:00 - 22:00</span>
+                <span class="badge-text">Horario entre semana</span>
+              </div>
+              <div class="badge">
+                <span class="badge-title">+30 clases</span>
+                <span class="badge-text">Actividades semanales</span>
+              </div>
+              <div class="badge">
+                <span class="badge-title">Villalba</span>
+                <span class="badge-text">Sierra noroeste de Madrid</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <h2>Empieza este mes</h2>
+            <p>Rellena tus datos y te contactamos para activar tu alta.</p>
+            <form class="hero-form">
+              <div class="form-group">
+                <label for="hero-nombre">Nombre y apellidos</label>
+                <input
+                  type="text"
+                  id="hero-nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="hero-email">Email</label>
+                <input
+                  type="email"
+                  id="hero-email"
+                  name="email"
+                  placeholder="tucorreo@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="hero-telefono">Teléfono</label>
+                <input
+                  type="tel"
+                  id="hero-telefono"
+                  name="telefono"
+                  placeholder="+34 600 000 000"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                Quiero más información
+              </button>
+              <p class="form-note">
+                Esta demo no envía datos. En un proyecto real se conectaría a un
+                backend o servicio de email.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- EL CENTRO -->
+      <section id="centro" class="section section-dark">
+        <div class="container section-grid">
+          <div class="section-text">
+            <p class="section-kicker">EL CENTRO</p>
+            <h2>GymAccess Villalba</h2>
+            <p>
+              Un espacio completo pensado para entrenar fuerza, mejorar tu
+              resistencia y cuidar tu salud sin agobios ni complicaciones. Zona
+              de máquinas, peso libre, funcional, estiramientos y área de
+              recuperación.
+            </p>
+            <p>
+              Contamos con entrenadores que te acompañan, planificaciones
+              básicas de entrenamiento y seguimiento de objetivos según tu
+              nivel.
+            </p>
+            <ul class="bullet-list">
+              <li>Zona de fuerza con máquinas y peso libre</li>
+              <li>Área de cardio con cintas, elípticas y bicicletas</li>
+              <li>Sala de actividades dirigidas y funcional</li>
+              <li>Zona de estiramientos y trabajo de movilidad</li>
+            </ul>
+          </div>
+
+          <div class="image-grid">
+            <div class="image-card image-card-1">
+              <img src="img/fuerza.jpg" alt="Zona de fuerza y peso libre" />
+              <span class="tag">Fuerza</span>
+            </div>
+
+            <div class="image-card image-card-2">
+              <img src="img/cardio.jpg" alt="Zona de cardio con máquinas" />
+              <span class="tag">Cardio</span>
+            </div>
+
+            <div class="image-card image-card-3">
+              <img src="img/clases.jpg" alt="Sala de clases dirigidas" />
+              <span class="tag">Clases</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ACTIVIDADES -->
+      <section id="actividades" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">ACTIVIDADES</p>
+            <h2>Entrena como quieras</h2>
+            <p>
+              Combina fuerza, alta intensidad, cardio y clases cuerpo-mente para
+              tener una rutina completa.
+            </p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Fuerza</h3>
+              <p>
+                Sala equipada con máquinas, peso libre y racks para trabajar
+                fuerza, hipertrofia y rendimiento.
+              </p>
+              <ul class="mini-list">
+                <li>Pesos libres y máquinas guiadas</li>
+                <li>Racks, barras y discos</li>
+                <li>Zona de core y estabilidad</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Alta intensidad</h3>
+              <p>
+                Clases tipo HIIT, funcional y circuitos para mejorar tu
+                resistencia y quemar calorías.
+              </p>
+              <ul class="mini-list">
+                <li>HIIT y entrenamiento funcional</li>
+                <li>Circuitos guiados</li>
+                <li>Sesiones cortas e intensas</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Cardio</h3>
+              <p>
+                Zona de cardio con máquinas modernas para trabajo continuo,
+                interválico o calentamiento.
+              </p>
+              <ul class="mini-list">
+                <li>Cintas, elípticas, bicicletas</li>
+                <li>Zonas de intensidad variable</li>
+                <li>Perfecto para empezar a moverte</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Cuerpo y mente</h3>
+              <p>
+                Clases enfocadas en movilidad, control postural, respiración y
+                reducción de estrés.
+              </p>
+              <ul class="mini-list">
+                <li>Movilidad y estiramientos</li>
+                <li>Clases suaves para todos los niveles</li>
+                <li>Complemento ideal al trabajo de fuerza</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TARIFAS / ALTA ONLINE -->
+      <section id="tarifas" class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">TARIFAS</p>
+            <h2>Elige cómo entrenar</h2>
+            <p>
+              Ejemplo de tarifas para la demo. En un proyecto real se conectarían
+              a la página de alta o pasarela de pago.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h3>Mensual Básica</h3>
+              <p class="price">
+                <span>29,90€</span> / mes
+              </p>
+              <ul class="mini-list">
+                <li>Acceso al gimnasio en horario general</li>
+                <li>Zona de fuerza y cardio</li>
+                <li>Acceso limitado a algunas clases</li>
+              </ul>
+              <a href="#alta-online" class="btn btn-ghost btn-full">
+                Empezar con esta
+              </a>
+            </article>
+
+            <article class="pricing-card pricing-card-featured">
+              <div class="badge-top">Recomendado</div>
+              <h3>Full Access</h3>
+              <p class="price">
+                <span>39,90€</span> / mes
+              </p>
+              <ul class="mini-list">
+                <li>Acceso completo a todas las zonas</li>
+                <li>Todas las clases dirigidas incluidas</li>
+                <li>Sesión de bienvenida con entrenador</li>
+              </ul>
+              <a href="#alta-online" class="btn btn-primary btn-full">
+                Elegir Full Access
+              </a>
+            </article>
+
+            <article class="pricing-card">
+              <h3>Pase diario</h3>
+              <p class="price">
+                <span>8,00€</span> / día
+              </p>
+              <ul class="mini-list">
+                <li>Acceso al centro por un día</li>
+                <li>Ideal para probar el gimnasio</li>
+                <li>Sujeto a aforo disponible</li>
+              </ul>
+              <a href="#contacto" class="btn btn-ghost btn-full">
+                Consultar condiciones
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALTA ONLINE (SIMULADO) -->
+      <section id="alta-online" class="section">
+        <div class="container section-grid">
+          <div class="section-text">
+            <p class="section-kicker">ALTA ONLINE</p>
+            <h2>Date de alta sin pasar por recepción</h2>
+            <p>
+              Aquí iría el enlace real a la plataforma de alta online del
+              gimnasio. Para la demo, puedes simular el flujo con este formulario
+              y explicar en el README cómo se integraría en un proyecto real.
+            </p>
+            <p>
+              Esto demuestra que piensas en el proceso completo de alta del
+              usuario, no solo en una página bonita.
+            </p>
+          </div>
+
+          <div class="section-media">
+            <form class="card form-card">
+              <h3>Simulación alta online</h3>
+
+              <div class="form-group">
+                <label for="alta-nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="alta-nombre"
+                  name="nombre"
+                  placeholder="Nombre y apellidos"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="alta-email">Email</label>
+                <input
+                  type="email"
+                  id="alta-email"
+                  name="email"
+                  placeholder="tucorreo@email.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="alta-plan">Plan</label>
+                <select id="alta-plan" name="plan">
+                  <option value="basica">Mensual Básica</option>
+                  <option value="full">Full Access</option>
+                  <option value="pase-diario">Pase diario</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="alta-fecha">Fecha de inicio</label>
+                <input type="date" id="alta-fecha" name="fecha" />
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Finalizar solicitud
+              </button>
+              <p class="form-note">
+                Formulario de ejemplo sin envío real. Ideal para explicar
+                arquitectura en el CV.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- HORARIO -->
+      <section id="horario" class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">HORARIO</p>
+            <h2>Horario de apertura</h2>
+            <p>
+              Ejemplo de horario para mostrar estructura. En un proyecto real
+              se podría cargar desde una base de datos o panel de administración.
+            </p>
+          </div>
+
+          <div class="schedule-wrapper">
+            <table class="schedule-table">
+              <thead>
+                <tr>
+                  <th>Día</th>
+                  <th>Horario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lunes - Viernes</td>
+                  <td>06:00 - 22:00</td>
+                </tr>
+                <tr>
+                  <td>Sábado</td>
+                  <td>09:30 - 21:00</td>
+                </tr>
+                <tr>
+                  <td>Domingo y festivos</td>
+                  <td>09:30 - 14:30</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="schedule-note">
+              Los horarios pueden ajustarse en festivos o periodos vacacionales.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIOS -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">OPINIONES</p>
+            <h2>Lo que dicen los socios</h2>
+          </div>
+
+          <div class="cards-grid testimonials-grid">
+            <article class="card testimonial">
+              <p class="testimonial-text">
+                “Buen ambiente, máquinas nuevas y horarios amplios. Perfecto para
+                entrenar antes de ir a trabajar.”
+              </p>
+              <p class="testimonial-author">María, 27 años</p>
+            </article>
+
+            <article class="card testimonial">
+              <p class="testimonial-text">
+                “Me gusta poder combinar zona de fuerza con clases de alta
+                intensidad. No me aburro nunca.”
+              </p>
+              <p class="testimonial-author">Javier, 34 años</p>
+            </article>
+
+            <article class="card testimonial">
+              <p class="testimonial-text">
+                “El trato es cercano y me ayudaron a empezar después de mucho
+                tiempo sin pisar un gimnasio.”
+              </p>
+              <p class="testimonial-author">Laura, 41 años</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA FINAL -->
+      <section class="section section-cta">
+        <div class="container section-cta-inner">
+          <div class="section-text">
+            <p class="section-kicker">PONTE EN MARCHA</p>
+            <h2>Primer paso: venir un día</h2>
+            <p>
+              Puedes empezar con un pase diario, probar las instalaciones y
+              decidir si es tu sitio. Lo importante es empezar.
+            </p>
+          </div>
+          <div class="section-actions">
+            <a href="#contacto" class="btn btn-secondary">
+              Pedir información
+            </a>
+            <a href="#alta-online" class="btn btn-primary">
+              Empezar ahora
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-column">
+          <h3>GymAccess Villalba</h3>
+          <p>
+            Tu gimnasio de referencia en la sierra noroeste de Madrid. Fuerza,
+            cardio y actividades para todos los niveles.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contacto</h4>
+          <ul class="footer-list">
+            <li>
+              <strong>Dirección:</strong><br />
+              C/ Ejemplo 123<br />
+              28400 Collado Villalba, Madrid
+            </li>
+            <li>
+              <strong>Email:</strong><br />
+              info@gymaccessvillalba.com
+            </li>
+            <li>
+              <strong>Teléfono:</strong><br />
+              +34 600 000 000
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Horario</h4>
+          <p>
+            Lun - Vie: 06:00 · 22:00<br />
+            Sáb: 09:30 · 21:00<br />
+            Dom y festivos: 09:30 · 14:30
+          </p>
+          <h4>Síguenos</h4>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© 2025 GymAccess Villalba. Proyecto demostración para CV.</p>
+          <a href="#inicio">Volver arriba</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
