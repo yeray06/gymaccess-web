@@ -1,4 +1,4 @@
-# 🏋️‍♂️ GymAccess Web  
+# GymAccess Web  
 Landing Page moderna para un gimnasio — **HTML + CSS**
 
 Bienvenido a **GymAccess Web**, un proyecto diseñado para mostrar una página web moderna, funcional y completamente responsive para un gimnasio.  
@@ -8,13 +8,13 @@ Este proyecto está realizado únicamente con **HTML y CSS**, sin frameworks ni 
 
 ---
 
-## 🚀 Demo en vivo
+## Demo en vivo
 
-👉 **https://yeray06.github.io/gymaccess-web/**
+**https://yeray06.github.io/gymaccess-web/**
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5** — Estructura semántica optimizada  
 - **CSS3** — Variables, Grid, Flexbox, gradientes, diseño responsive  
@@ -23,7 +23,7 @@ Este proyecto está realizado únicamente con **HTML y CSS**, sin frameworks ni 
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 El propósito de este proyecto es crear una landing page profesional orientada a captar clientes para un gimnasio, aplicando buenas prácticas de diseño y estructura:
 
@@ -38,7 +38,7 @@ El propósito de este proyecto es crear una landing page profesional orientada a
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 gymaccess-web/
 │── index.html
@@ -51,15 +51,6 @@ gymaccess-web/
 ├── fuerza.jpg
 ├── cardio.jpg
 └── clases.jpg
-
-yaml
-Copiar código
-
----
-
-## 🖥️ Capturas del proyecto
-
-*(Agrega aquí capturas si quieres mejorar tu presentación en GitHub o en tu CV)*
 
 ---
 
