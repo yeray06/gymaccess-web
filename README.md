@@ -66,7 +66,7 @@ Usando **media queries**, **CSS Grid**, **Flexbox** y un sistema de diseño cohe
 
 ---
 
-## ⭐ Características destacadas
+## Características destacadas
 
 - Hero con imagen personalizada y formulario  
 - Sección completa del centro y sus áreas  
@@ -79,14 +79,14 @@ Usando **media queries**, **CSS Grid**, **Flexbox** y un sistema de diseño cohe
 
 ---
 
-## 🧑‍💻 Autor
+## Autor
 
 **Yeray Sánchez Roldán**  
 Estudiante de Desarrollo de Aplicaciones Web (DAW)
 
 ---
 
-## 📌 Licencia
+## Licencia
 
 Proyecto de uso libre para fines educativos y demostrativos.  
 No incluye funcionalidades de backend ni gestión real de datos.
