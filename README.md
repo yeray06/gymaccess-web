@@ -54,7 +54,7 @@ gymaccess-web/
 
 ---
 
-## 📱 Diseño responsive
+## Diseño responsive
 
 La web está adaptada a:
 
