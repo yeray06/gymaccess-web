@@ -1,10 +1,9 @@
-# GymAccess Web  
-Landing Page moderna para un gimnasio — **HTML + CSS**
+# GymAccess Web
+Landing page de demostración para un gimnasio — **HTML + CSS + JavaScript**
 
-Bienvenido a **GymAccess Web**, un proyecto diseñado para mostrar una página web moderna, funcional y completamente responsive para un gimnasio.  
-El objetivo de este trabajo es demostrar habilidades profesionales en **maquetación**, **diseño web**, **estructuración semántica**, y uso avanzado de **CSS** para crear una experiencia visual atractiva.
+Página web moderna y responsive para un gimnasio ficticio (GymAccess Villalba). Es un proyecto de demostración: el gimnasio, los precios, los horarios y las opiniones son de ejemplo.
 
-Este proyecto está realizado únicamente con **HTML y CSS**, sin frameworks ni backend, y desplegado mediante **GitHub Pages**.
+Desarrollado con IA (Claude Code) bajo mi dirección: defino la estructura y el diseño, reviso el código y hago las pruebas.
 
 ---
 
@@ -14,79 +13,54 @@ Este proyecto está realizado únicamente con **HTML y CSS**, sin frameworks ni 
 
 ---
 
-## Tecnologías utilizadas
+## Tecnologías
 
-- **HTML5** — Estructura semántica optimizada  
-- **CSS3** — Variables, Grid, Flexbox, gradientes, diseño responsive  
-- **Google Fonts** — Tipografía “Plus Jakarta Sans”  
-- **GitHub Pages** — Hosting estático y despliegue automático  
-
----
-
-## Objetivo del proyecto
-
-El propósito de este proyecto es crear una landing page profesional orientada a captar clientes para un gimnasio, aplicando buenas prácticas de diseño y estructura:
-
-- Hero visual con formulario de contacto  
-- Información sobre el centro  
-- Actividades principales  
-- Tarifas con diseño premium  
-- Horarios  
-- Testimonios  
-- Llamadas a la acción claras  
-- Diseño responsive adaptable a móvil, tablet y desktop  
+- **HTML5**: estructura semántica
+- **CSS3**: variables, Grid, Flexbox y media queries
+- **JavaScript**: menú móvil, formularios de demo y navegación activa por secciones
+- **Google Fonts**: tipografía "Plus Jakarta Sans"
+- **GitHub Pages**: hosting estático
 
 ---
 
-## Estructura del proyecto
+## Secciones
 
+- Hero con formulario de contacto
+- Información del centro y sus zonas
+- Actividades
+- Tarifas con plan destacado
+- Formulario de alta online simulado
+- Horario
+- Opiniones de ejemplo
+- Footer con contacto, horario y redes
+
+---
+
+## Estructura
+
+```
 gymaccess-web/
-│── index.html
-│
+├── index.html
 ├── css/
-│ └── styles.css
-│
+│   └── styles.css
+├── js/
+│   └── main.js
 └── img/
-├── hero-gym.jpg
-├── fuerza.jpg
-├── cardio.jpg
-└── clases.jpg
+    ├── hero-gym.jpg
+    ├── fuerza.jpg
+    ├── cardio.jpg
+    └── clases.jpg
+```
 
 ---
 
-## Diseño responsive
+## Limitaciones
 
-La web está adaptada a:
-
-- Teléfonos móviles  
-- Tablets  
-- Pantallas grandes  
-
-Usando **media queries**, **CSS Grid**, **Flexbox** y un sistema de diseño coherente.
-
----
-
-## Características destacadas
-
-- Hero con imagen personalizada y formulario  
-- Sección completa del centro y sus áreas  
-- Actividades y descripciones  
-- Tarifas con tarjeta destacada  
-- Formulario de alta online simulado  
-- Testimonios reales adaptados al diseño  
-- Footer con contacto, horario y redes  
-- Estética moderna tipo gimnasio premium  
+Los formularios no envían datos: no hay backend. En un proyecto real se conectarían a un servicio de email, a la plataforma de altas o a una pasarela de pago.
 
 ---
 
 ## Autor
 
-**Yeray Sánchez Roldán**  
-Estudiante de Desarrollo de Aplicaciones Web (DAW)
-
----
-
-## Licencia
-
-Proyecto de uso libre para fines educativos y demostrativos.  
-No incluye funcionalidades de backend ni gestión real de datos.
+**Yeray Sánchez Roldán**
+Estudiante de 2º de Desarrollo de Aplicaciones Multiplataforma (DAM)
